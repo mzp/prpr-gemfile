@@ -12,11 +12,11 @@ module Prpr
               next unless version
               next unless old_version
 
-              if version.major > old_version.major
+              if version.major != old_version.major
                 add_comment(name, 'major version changed!')
               end
 
-              if version.minor > old_version.minor
+              if version.major == old_version.major && version.minor != old_version.minor
                 add_comment(name, 'minor version changed!')
               end
 
