@@ -7,7 +7,7 @@
 Add this line to your application's Gemfile:
 
 ```ruby
-gem 'prpr-gemfile', github: 'mzp/prpr-gemfile'
+gem 'prpr-gemfile'
 ```
 
 ## Usage
